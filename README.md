@@ -1,15 +1,26 @@
-# Student Registration System
+# Student Registration System using AWS Lambda
 
-## AWS Services Used
+## Project Overview
+A serverless application that stores student data using AWS Lambda and DynamoDB.
+
+## Services Used
 - AWS Lambda
 - DynamoDB
-- Python (boto3)
+- IAM
+- CloudWatch
 
-## Project Description
-This project stores student details in DynamoDB using AWS Lambda.
+## Workflow
+User Request → Lambda Function → DynamoDB
+
+## Features
+- Serverless architecture
+- Data storage in DynamoDB
+- Logging with CloudWatch
 
 ## Test Data
 {
   "studentId": "101",
   "name": "Vamsi"
 }
+## Result
+Student data is successfully processed and stored in DynamoDB.
